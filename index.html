@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:wght@100&family=Rajdhani:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+  </head>
+  <body class="flex">
+    <div class="wrapper">
+      <div class="quiz-container">
+        <div class="quiz-header">
+          <h1 class="title">Quiz</h1>
+          <div class="quiz-score flex">
+            <span id="correct-score"></span>
+            <span>/</span>
+            <span id="total-question">10</span>
+          </div>
+        </div>
+      </div>
+      <div class="quiz-body">
+        <h3 class="quiz-question" id="question">
+          <!-- Who is the most popular band of all time? <br />
+          <span class="category">Music</span> -->
+        </h3>
+        <ul class="quiz-options">
+          <!-- <li>1. Rolling stones</li>
+          <li>2. The Beatles</li>
+          <li>3. Pink Floyd</li>
+          <li>4. Abba</li> -->
+        </ul>
+        <div id="result"></div>
+        <div class="quiz-foot">
+          <button type="button" id="check-answer">Check Answer</button>
+          <button type="button" id="play-again">Play Again</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
